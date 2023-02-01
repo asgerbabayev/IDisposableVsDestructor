@@ -8,7 +8,7 @@ disposable.Print();
 
 Disposable MyMain()
 {
-   Disposable dispose = new();
+   using Disposable dispose = new();
    return dispose;
 }
 
